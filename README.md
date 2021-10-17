@@ -16,9 +16,9 @@ npm install --save-dev hardhat
 sudo snap install --classic code
 ### Install Sublime
 sudo snap install --classic sublime-text
-### Compile
+## Compile
 npx hardhat compile
-### Deploy
+## Deploy
 #### ALCHEMY_API_KEY
 Go to https://www.alchemyapi.io, sign up, create a new App in its dashboard, and replace "KEY" with its key.
 #### ROPSTEN_PRIVATE_KEY
@@ -27,7 +27,7 @@ To export your private key from Metamask, open Metamask and go to Account Detail
 Be aware of NEVER putting real Ether into testing accounts.
 #### Deploy to testnet
 npx hardhat run scripts/deploy.js --network ropsten
-#### Test on local
+## Test on local
 ##### Terminal 1
 npx hardhat node
 ##### Terminal 2
